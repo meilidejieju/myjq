@@ -1,0 +1,13 @@
+<ul id="myworks">
+    <foreach name="works_arr" item="vo">
+    <li>
+        {$vo.subject}--<span style="font-size: 12px;">{$vo.post_time}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="删除" class="del" onclick="getContent('{$base_url}/admin.php/Mainajax/delWorks/p/'+$('.pagebar .cur').text(),$('.position').text(),'#myworks',{ 'id':{$vo.id} })"/>
+        <input type="submit" value="修改" class="edit" onclick="getContent('{$base_url}/admin.php/Mainajax/editWorks/p/'+$('.pagebar .cur').text(),$('.position').text(),'',{ 'id':{$vo.id} })"/>
+    <li>
+    </foreach>
+
+    <li>
+        <include file="lib/page"/>
+    </li>
+</ul>

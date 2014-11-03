@@ -1,0 +1,42 @@
+<!---(panelslider-->
+<link rel="stylesheet" href="{$base_url}/flash/home/plugins/panelslider/style.css">
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script src="{$base_url}/flash/home/plugins/panelslider/jquery.panelslider.min.js"></script>
+<script>
+    $('#left-panel-link').panelslider({clickClose: false});
+    $('#right-panel-link').panelslider({side: 'right', clickClose: false, duration: 200 });
+
+    $('#close-panel-bt').click(function() {
+        $.panelslider.close();
+    });
+</script>
+<script src="{$base_url}/flash/home/js/music.js"></script>
+<input type="hidden" value="0" id = "music_status"  nextmusic="1"/>
+<!---panelslider)-->
+<!-- Left panel -->
+<div id="left-panel" class="panel">
+    <button id="close-panel-bt" class="arrow"><</button>
+
+    <div class="left_content">
+        <li class="left_content_header">这是内容</li>
+        <li style="display: none"  class="article" > ></li>
+
+    </div>
+
+    <div class="bottom_area">
+        <ul >
+            <ul class="music_list">
+                <foreach name="musiclist" item="vo">
+                    <li class="music_item" music_name="{$vo.value}" item="{$vo.index}">{$vo.subject}</li>
+
+                </foreach>
+
+            </ul>
+            <li class="icon_play" style="display: none"><img src="{$base_url}/flash/home/images/music.gif"></li>
+            <li class="btn_play"></li>
+            <li class="btn_set"></li>
+
+        </ul>
+
+    </div>
+</div>

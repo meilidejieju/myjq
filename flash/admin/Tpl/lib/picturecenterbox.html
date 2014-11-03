@@ -1,0 +1,16 @@
+<link type="text/css" href="{$base_url}/flash/admin/css/images.css" rel="stylesheet"/>
+<div class="images" style="margin-top: 20px;">
+    <foreach name="imagelist" item="vo">
+        <div class="lie">
+            <foreach name="vo" item="v">
+                <div class="img_item">
+                    <img src="{$v.value}">
+                    <div class="tips">已选择</div>
+                </div>
+            </foreach>
+        </div>
+    </foreach>
+    <div class="clear"></div>
+    <include file="lib/page"/>
+    <div class="clear"></div>
+</div>

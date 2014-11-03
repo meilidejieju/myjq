@@ -1,0 +1,177 @@
+[ 2014-07-12T10:14:09+08:00 ] 127.0.0.1 /war5/admin.php/Main/main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+NOTIC: [8] Undefined index: admin_username D:\myweb\war5\flash\admin\Lib\Action\MainAction.class.php 第 3 行.
+
+[ 2014-07-12T10:14:10+08:00 ] 127.0.0.1 /war5/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.113529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006648s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008178s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000906s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017085s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2014-07-12T10:14:10+08:00 ] 127.0.0.1 /war5/admin.php/Index/yanzhengma
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000641s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+
+[ 2014-07-12T10:14:20+08:00 ] 127.0.0.1 /war5/admin.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.093701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093769s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000380s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000273s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000281s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001410s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2014-07-12T10:14:22+08:00 ] 127.0.0.1 /war5/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005078s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000265s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000261s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2014-07-12T10:14:22+08:00 ] 127.0.0.1 /war5/admin.php/Index/yanzhengma
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+
+[ 2014-07-12T10:14:30+08:00 ] 127.0.0.1 /war5/admin.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `blog_users` [ RunTime:0.035049s ]
+SQL: SELECT `password`,`username`,`uid` FROM `blog_users` WHERE ( username ="admin" ) LIMIT 1   [ RunTime:0.003150s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005937s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000363s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001574s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2014-07-12T10:14:33+08:00 ] 127.0.0.1 /war5/admin.php/Main/main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000878s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `blog_leftmenu` [ RunTime:0.021932s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=0 and display=1 ) ORDER BY list_order  [ RunTime:0.007743s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=130 and display=1 ) ORDER BY list_order  [ RunTime:0.000425s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=137 and display=1 ) ORDER BY list_order  [ RunTime:0.000292s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\war5\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=131 and display=1 ) ORDER BY list_order  [ RunTime:0.000296s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\war5\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001529s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000944s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005967s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2014-07-12T10:14:35+08:00 ] 127.0.0.1 /war5/admin.php/Main/setleftmenu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `blog_leftmenu` [ RunTime:0.003995s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=0 and display=1 ) ORDER BY list_order  [ RunTime:0.000383s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=130 and display=1 ) ORDER BY list_order  [ RunTime:0.000340s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=137 and display=1 ) ORDER BY list_order  [ RunTime:0.000302s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\war5\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=131 and display=1 ) ORDER BY list_order  [ RunTime:0.000297s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\war5\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: class D:\myweb\war5\flash\admin\Lib\Model\MenuModel.class.php 第 56 行.
+NOTIC: [8] Undefined variable: class D:\myweb\war5\flash\admin\Lib\Model\MenuModel.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030447s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000577s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002454s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2014-07-12T10:14:38+08:00 ] 127.0.0.1 /war5/admin.php/Main/webset
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005799s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000311s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000484s ]
+

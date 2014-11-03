@@ -1,0 +1,61 @@
+<include file="common/header"/>
+        <body>
+        <script type="text/javascript">
+            /*随即背景*/
+            $(document).ready(function(){
+                changeBg($(".background"),'url("{$base_url}/flash/admin/images/bg1.jpg")');
+                $(".yanzhengma_img").click(function(){
+                    $(this).attr("src","{$base_url}/admin.php/Index/yanzhengma?w="+Math.random());
+                });
+
+            });
+
+
+        </script>
+        <div class="background"></div>
+        <form method="post" action="./admin.php/Index/login" id="login_form">
+        <div class="login">
+            <div class="login_info">
+                <div class="item">
+                    <div class="info">{$langZh.login}：</div><input class="username" name = "username" value=""/>
+                </div>
+                <div class="item">
+                    <div class="info">{$langZh.password}：</div><input type="password" class="password" name = "password" value=""/>
+                </div>
+                <div class="item">
+                    <div class="info">{$langZh.yanzhengma}：</div>
+                    <div>
+                        <li>
+                            <input class="yanzhengma" name = "yanzhengma" value=""/>
+                        </li>
+                        <li>
+                            <img class="yanzhengma_img" style="width:78px;height:28px;border: 1px solid #999;border-radius:3px;margin-left: 10px;" src="{$base_url}/admin.php/Index/yanzhengma"/>
+                        </li>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="login_area">
+               <input style="display: none" type="button" class="login_bt" onclick="javascript:this.form.submit()" name = "login_bt" value="{$langZh.login}"/>
+                <script>
+                    $(document).ready(function(){
+                        $(document).keypress(function(event){
+                            var keycode = (event.keyCode ? event.keyCode : event.which);
+
+                            if(keycode == '13'){
+                                $("#login_form").submit();
+                            }
+                        })
+                    })
+                </script>
+            </div>
+
+
+        </div>
+        </form>
+
+        </body>
+
+</html>
+
+

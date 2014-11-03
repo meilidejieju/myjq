@@ -1,0 +1,24 @@
+<script type="text/javascript" src="{$base_url}/flash/admin/js/piccenter.js"></script>
+<script type="text/javascript" src="{$base_url}/flash/admin/js/works.js"></script>
+<div>
+    <include file="common/position"/>
+    <div class="content">
+        <include file="lib/upload"/>
+        <div id="picturecenterbox">
+            <include file="lib/picturecenterbox"/>
+        </div>
+        <div>
+            当前图片地址为：<span id="current_url"></span>
+        </div>
+    </div>
+    <script src="{$base_url}/flash/admin/js/jquery.1.4.2.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function(){
+            showPicUrl2('img_item',$('#current_url'));
+
+        });
+
+
+
+    </script>
+</div>

@@ -1,0 +1,49 @@
+<link href="{$base_url}/flash/home/css/style_popular.css" media="all" rel="stylesheet" >
+<script type="text/javascript" src="{$base_url}/flash/admin/js/works.js"></script>
+<div>
+    <include file="common/position"/>
+
+        <div class="content">
+            <li>
+                作品名称:
+                <input type="text" name="subject" id="subject" value="{$workinfo.subject}" style="width: 300px;">
+            </li>
+            <li>
+                上传日期:
+                <input type="text" name="post_time" id="post_time" style="width: 200px;" value="{$time}">
+            </li>
+            <li>
+                作品描述:<br/>
+                <textarea  name="description" id = "description" style="width: 500px;" >{$workinfo.description}</textarea>
+            </li>
+
+
+            <li>
+                选择图片:<img id="showpic" style="display:{$minpic_display}" src="{$workinfo.picurl}" width="30">
+                <input type="hidden" name="picurl"  value="{$workinfo.picurl}" id="picurl" >
+                <div id="picturecenterbox">
+                    <include file="lib/picturecenterbox"/>
+                </div>
+            </li>
+            <li>
+                <input type="submit" value="提交" class="normal_submit"  onclick="$(this).attr('disabled','disabled');
+                getContent('{$base_url}/admin.php/Mainajax/{$act}/p/{$p}/id/{$id}','当前位置:网站首页设置>我的作品','',
+                {'subject':$('#subject').val(),'description':$('#description').val(),'post_time':$('#post_time').val(),'picurl':$('#picurl').val()})"/>
+                <input type="submit" value="返回" class="normal_submit"  onclick="getContent('{$base_url}/admin.php/Main/mywork/p/{$p}','当前位置:网站首页设置>我的作品')"/>
+
+            </li>
+        </div>
+    <script src="{$base_url}/flash/admin/js/jquery.1.4.2.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function(){
+                selectPicSingle('img_item',1,$("#picurl"),$("#showpic"));
+
+
+            })
+
+        </script>
+
+
+
+
+</div>

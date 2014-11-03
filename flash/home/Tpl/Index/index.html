@@ -1,0 +1,44 @@
+
+<include file="header"/>
+
+<body>
+
+<include file="lib/background"/>
+<div class="body">
+
+    <div class="centerbox">
+        <div style="position: relative">
+            <div style="position: absolute">
+                <div class="left_content" style="position: fixed">
+                    <div class="logo">
+                        <img style="width: 80px" src="{$base_url}/flash/home/images/logo1.png">
+                    </div>
+                    <div class="blank"></div>
+                    <include file="lib/tendina"/>
+                </div>
+            </div>
+        </div>
+        <div class="right_content">
+            <if  condition="$act=='myinfo'">
+                {$myinfo}
+            </if>
+            <if condition="$act=='mywork'">
+                <if condition="$myworks">
+                    <include file="lib/pubuliu"/>
+                    <else/>
+                    <div style="width: 200px;text-align: center;margin: 100px auto">暂无作品！</div>
+                </if>
+            </if>
+            <if condition="$act=='mycontact'">
+                {$mycontact}
+            </if>
+            <if condition="$act=='shop'">
+                {$shop}
+            </if>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

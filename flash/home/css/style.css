@@ -1,0 +1,119 @@
+/*
+主要css
+*/
+*{
+    font-family: '微软雅黑';
+    list-style: none;
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    color: #ff6600;
+}
+.cur{
+    color: #ff6600;
+}
+body,div,ul,li{
+    padding: 0;margin: 0;
+}
+.blank{height: 20px;}
+.background{width: 100%;position: fixed;left: 0;top: 0;z-index: -999;height: 100%;overflow: hidden;background: #F0F0F0}
+.header{
+    padding: 10px;background: #aaa;
+}
+.body{
+    margin: 0 auto;width: 1000px;height: 100%;position: relative;
+;
+}
+.centerbox{
+   margin-top: 30px;width: 1000px;
+}
+.boxcenter{
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.weather{
+    float: right;
+
+}
+.clear{clear:both}
+
+.bottom_area{
+    position: absolute;bottom: 50px;width:180px;
+}
+
+.bottom_area>ul>li{
+   float: left;margin: 10px;cursor: pointer;width: 30px;height: 30px;
+}
+.bottom_area .btn_set{
+    float: right;
+    background: url('../images/set.png');
+}
+.bottom_area .btn_set:hover{
+    float: right;
+    background: url('../images/set_.png');
+}
+.bottom_area .btn_play{
+   background: url('../images/play.png');
+}
+.bottom_area .btn_play:hover{
+    background: url('../images/play_.png');
+}
+
+.bottom_area .music_list{
+    font-size: 12px;display: none;
+}
+.bottom_area .music_list .music_item{
+    padding-left: 5px;
+    line-height: 25px;cursor: pointer;
+}
+.bottom_area .music_list .music_item:hover{
+    border-top: 1px solid #ff6600;
+    border-bottom: 1px solid #ff6600;
+}
+
+.left_content{
+    font-size: 12px;width: 230px;float: left;
+}
+
+.left_content .left_content_header{
+    font-size: 14px;color: #ff6600;
+}
+.left_content li{
+  padding: 0 3px;margin:2px 0;cursor: pointer;
+}
+.left_content li:hover{
+  color: #ff6600;
+}
+.edit_btn{
+    width: 30px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 30px;
+    background: url('../images/addfile.png'); ;
+}
+.edit_btn:hover{
+    background: url('../images/addfile_.png'); ;
+}
+.article_content{
+    width: 100%;
+    background: #fff;
+    padding: 10px 0;
+}
+.right_content{
+    width: 750px;float: right;margin-left: 20px;
+}
+.right_content_left{
+    width: 550px;float: left
+}
+.right_content_right{
+    width: 230px;float: left;margin-left: 20px;
+}

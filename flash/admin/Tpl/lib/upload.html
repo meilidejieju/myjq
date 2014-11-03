@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+<title>Plupload - Custom example</title>
+
+<!-- production -->
+<script type="text/javascript" src="{$base_url}/flash/admin/plugin/js/plupload.full.min.js"></script>
+
+
+</head>
+<body style="font: 13px Verdana; background: #eee; color: #333">
+
+<h1>图片空间</h1>
+
+<p>目前支持的格式为jpg,gif,png 大小限制8M以内</p>
+
+<div id="filelist">Your browser doesn't have Flash, Silverlight or HTML5 support.</div>
+<br />
+
+<div id="container">
+    <a id="pickfiles" href="javascript:;"><div class="sel_pic_btn">选择文件</div></a>
+    <a id="uploadfiles" href="javascript:;"><div class="up_pic_btn">开始上传</div></a>
+</div>
+
+<br />
+<pre id="console"></pre>
+
+
+
+
+<script type="text/javascript">
+// Custom example logic
+
+var uploader = new plupload.Uploader({
+	runtimes : 'html5,flash,silverlight,html4',
+	browse_button : 'pickfiles', // you can pass in id...
+	container: document.getElementById('container'), // ... or DOM Element itself
+	url : '{$base_url}/flash/admin/plugin/examples/upload.php',
+	flash_swf_url : '{$base_url}/flash/admin/plugin/js/Moxie.swf',
+	silverlight_xap_url : '{$base_url}/flash/admin/plugin/js/Moxie.xap',
+	
+	filters : {
+		max_file_size : '10mb',
+		mime_types: [
+			{title : "Image files", extensions : "jpg,gif,png"}
+		//	,{title : "Zip files", extensions : "zip,rar"}
+		]
+	},
+
+	init: {
+		PostInit: function() {
+			document.getElementById('filelist').innerHTML = '';
+
+			document.getElementById('uploadfiles').onclick = function() {
+				uploader.start();
+				return false;
+			};
+		},
+
+		FilesAdded: function(up, files) {
+			plupload.each(files, function(file) {
+				document.getElementById('filelist').innerHTML += '<div id="' + file.id + '">' + file.name + ' (' + plupload.formatSize(file.size) + ') <b></b></div>';
+			});
+		},
+
+		UploadProgress: function(up, file) {
+			document.getElementById(file.id).getElementsByTagName('b')[0].innerHTML = '<span>' + file.percent + "%</span>";
+		},
+
+		Error: function(up, err) {
+			document.getElementById('console').innerHTML += "\nError #" + err.code + ": " + err.message;
+		}
+	}
+});
+
+uploader.init();
+
+</script>
+</body>
+</html>

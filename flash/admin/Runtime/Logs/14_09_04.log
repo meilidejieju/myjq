@@ -1,0 +1,248 @@
+[ 2014-09-04T11:10:28+08:00 ] 127.0.0.1 /myblog/admin.php/Main/main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined index: admin_username D:\myweb\myblog\flash\admin\Lib\Action\MainAction.class.php 第 3 行.
+
+[ 2014-09-04T11:10:28+08:00 ] 127.0.0.1 /myblog/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063290s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000397s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000404s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001875s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001029s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2014-09-04T11:10:28+08:00 ] 127.0.0.1 /myblog/admin.php/Index/yanzhengma
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+
+[ 2014-09-04T11:10:39+08:00 ] 127.0.0.1 /myblog/admin.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `blog_users` [ RunTime:0.032878s ]
+SQL: SELECT `password`,`username`,`uid` FROM `blog_users` WHERE ( username ="admin" ) LIMIT 1   [ RunTime:0.004448s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017658s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000380s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2014-09-04T11:10:41+08:00 ] 127.0.0.1 /myblog/admin.php/Main/main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000739s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `blog_leftmenu` [ RunTime:0.027080s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=0 and display=1 ) ORDER BY list_order  [ RunTime:0.008281s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=130 and display=1 ) ORDER BY list_order  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=131 and display=1 ) ORDER BY list_order  [ RunTime:0.000255s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\myblog\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=137 and display=1 ) ORDER BY list_order  [ RunTime:0.000241s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\myblog\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=191 and display=1 ) ORDER BY list_order  [ RunTime:0.000247s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=192 and display=1 ) ORDER BY list_order  [ RunTime:0.000230s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\myblog\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=193 and display=1 ) ORDER BY list_order  [ RunTime:0.000234s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\myblog\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017794s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001890s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2014-09-04T11:10:46+08:00 ] 127.0.0.1 /myblog/admin.php/Main/shouyebgimg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `blog_index_config` [ RunTime:0.003498s ]
+NOTIC: [8] Undefined index: p D:\myweb\myblog\flash\admin\Lib\Action\MainAction.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT `value` FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 0,2   [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026109s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000496s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000501s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2014-09-04T11:10:47+08:00 ] 127.0.0.1 /myblog/admin.php/Main/shouyebgmusic
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004323s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000274s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2014-09-04T11:10:48+08:00 ] 127.0.0.1 /myblog/admin.php/Main/shouyebgimg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `blog_index_config` [ RunTime:0.003621s ]
+NOTIC: [8] Undefined index: p D:\myweb\myblog\flash\admin\Lib\Action\MainAction.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT `value` FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 0,2   [ RunTime:0.000158s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006173s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000318s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2014-09-04T11:10:58+08:00 ] 127.0.0.1 /myblog/admin.php/Main/shouyebgimg/p/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000851s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `blog_index_config` [ RunTime:0.003413s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT `value` FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 2,2   [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008974s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001300s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2014-09-04T11:10:59+08:00 ] 127.0.0.1 /myblog/admin.php/Main/shouyebgimg/p/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `blog_index_config` [ RunTime:0.003774s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SELECT `value` FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 4,2   [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006269s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000311s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001361s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2014-09-04T11:11:00+08:00 ] 127.0.0.1 /myblog/admin.php/Main/shouyebgimg/p/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `blog_index_config` [ RunTime:0.003692s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT `value` FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 6,2   [ RunTime:0.000150s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006679s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000296s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000305s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001319s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2014-09-04T11:11:01+08:00 ] 127.0.0.1 /myblog/admin.php/Main/shouyebgimg/p/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `blog_index_config` [ RunTime:0.003907s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT `value` FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 0,2   [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007078s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000262s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000410s ]
+

@@ -1,0 +1,43 @@
+.images{
+    width: 750px;
+    padding: 4px;
+    border: 1px solid #eee;
+}
+.images>.lie{
+    float: left;
+    width: 115px;
+    margin: 3px;
+
+
+}
+.images>.lie>.img_item{
+    position: relative;
+
+}
+.images>.lie>.img_item img{
+    width: 100%;
+    cursor: pointer;
+}
+.images>.lie>.img_item:hover{
+    opacity: 0.6;
+}
+#picturecenterbox .tips{
+    display:none;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    background: #000;
+    color: #fff;
+    opacity: 0.8;
+    width: 100%;
+
+}
+#picturecenterbox .selectimg .tips{
+    display: block;
+
+}
+
+.clear{
+    clear: both;
+}

@@ -1,0 +1,9 @@
+[ 2014-08-18T21:41:38+08:00 ] 127.0.0.1 /myblog/index.php/Index/test
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000742s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined index: simple-editor D:\myweb\myblog\flash\home\Lib\Action\IndexAction.class.php 第 18 行.
+

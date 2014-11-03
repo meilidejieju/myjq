@@ -1,0 +1,9 @@
+<div class="page" >
+    <ul class="pagebar" >
+        <foreach name="pagebar" item="vo">
+            <li class="{$vo.cur}" onclick="getContent('{$vo.url}',$('.position').text(),'{$vo.box_id}')">{$vo.name}</li>
+        </foreach>
+        <div class="clear"></div>
+    </ul>
+    <div class="clear"></div>
+</div>

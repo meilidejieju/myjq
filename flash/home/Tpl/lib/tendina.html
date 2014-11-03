@@ -1,0 +1,48 @@
+<ul id="menu">
+    <li>
+        <a class="{$curinfo}" href="{$base_url}/index.php/Index/myinfo/cur/info">Info</a>
+    </li>
+    <li class="{$mywork_menu_class}">
+        <a href="#" >Original Works</a>
+        <ul class="mywork">
+            <foreach name="datemenu" item="vo">
+                <li><a class="{$vo.cur}" href="{$base_url}/index.php/Index/mywork/starttime/{$vo.starttime}/endtime/{$vo.endtime}/cur/{$vo.curvalue}">{$vo.menu_name}</a></li>
+            </foreach>
+
+        </ul>
+    </li>
+    <li>
+        <a class="{$curcontact}" href="{$base_url}/index.php/Index/mycontact/cur/contact">Contact</a>
+    </li>
+    <li>
+        <a href="#">Shop</a>
+    </li>
+</ul>
+<script src="{$base_url}/flash/admin/js/tendina.js"></script>
+<script>
+
+
+    $('#menu').tendina({
+        animate: true,
+        speed: 500,
+        openCallback: function($clickedEl) {
+            console.log($clickedEl);
+        },
+        closeCallback: function($clickedEl) {
+            console.log($clickedEl);
+        }
+    });
+    $(document).ready(function(){
+        if("{$act}"=='mywork'){
+            $(".mywork").css("display","block");
+        }
+
+        $(window).scroll(function(){
+            if($(document).scrollTop()>30){
+
+            }
+        })
+    });
+
+
+</script>

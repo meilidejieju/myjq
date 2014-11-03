@@ -1,0 +1,36 @@
+[ 2014-10-07T15:53:11+08:00 ] 127.0.0.1 /yanandyan/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2] file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£  D:\myweb\yanandyan\flash\home\Lib\Model\getWeatherModel.class.php Á¨¨ 18 Ë°å.
+NOTIC: [2] file_get_contents(http://api.map.baidu.com/telematics/v3/weather?location=Êù≠Â∑û&amp;output=json&amp;ak=AC6f2f88bce541a8c98ac6abe531bb89) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: ≤ª÷™µ¿’‚—˘µƒ÷˜ª˙°£  D:\myweb\yanandyan\flash\home\Lib\Model\getWeatherModel.class.php Á¨¨ 18 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 8 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 8 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 8 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 9 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 9 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 9 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 10 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 10 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 10 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 11 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 11 Ë°å.
+NOTIC: [8] Trying to get property of non-object D:\myweb\yanandyan\flash\home\Lib\Action\IndexAction.class.php Á¨¨ 11 Ë°å.
+SQL: SHOW COLUMNS FROM `blog_index_config` [ RunTime:0.002567s ]
+SQL: SELECT `value` FROM `blog_index_config` WHERE ( type='index_bgimg' and uid =1 and display = 1 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT * FROM `blog_index_config` WHERE ( type='index_bgmusic' and uid =1 and display = 1 )  [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.002423s ]
+SQL: SELECT * FROM `blog_article`  [ RunTime:0.000198s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027751s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000381s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000546s ]
+

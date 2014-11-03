@@ -1,0 +1,20 @@
+.unno_submit_input{
+    border: none;
+    border:1px solid #ddd;
+    background: url("../images/yes.png") center no-repeat;
+    border-radius: 2px;
+    cursor:pointer;
+    width: 100px;
+    height: 60px;
+}
+
+.unno_search_input{
+    border: none;
+    border:1px solid #999;
+    border-radius: 1px;
+    min-width: 300px;
+    height: 30px;
+    color: #ddd;
+    font-size: 12px;
+    padding-left: 5px;
+}

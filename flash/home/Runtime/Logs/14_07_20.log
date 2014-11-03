@@ -1,0 +1,8 @@
+[ 2014-07-20T22:27:19+08:00 ] 192.168.1.107 /WAR5/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined index: p D:\myweb\war5\flash\home\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'taomal_f'@'localhost' (using password: NO) D:\myweb\war5\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'taomal_f'@'localhost' (using password: NO)
+

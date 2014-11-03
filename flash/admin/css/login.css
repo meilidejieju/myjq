@@ -1,0 +1,16 @@
+body{background: #eeeeee}
+.background{background: #0055FF;position: absolute;top: 0;width:100%;left: 0;height:100%;z-index: -100000}
+.login{margin: 0 auto;width: 400px;margin-top: 10%}
+.login .item{line-height: 20px;margin-top: 10px;}
+.info{
+    width: 90px;text-align: right;float: left;font-size: 12px;line-height: 32px;
+    font-family: '微软雅黑';color: #fff;background: #999;
+}
+
+.info input{height: 20px;}
+.item li{list-style: none;float: left;height:40px;line-height: 20px;}
+.item .yanzhengma{width: 80px;}
+.item input{width: 170px;}
+.login_info{float: left;}
+.login_area{float: right;width: 120px;}
+.login_area .login_bt{width: 100%;margin-top: 10px;height: 114px;cursor: pointer;background: #fff2d9;font-family: '微软雅黑';font-weight: bold}

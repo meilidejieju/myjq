@@ -1,0 +1,54 @@
+<ul class="dropdown">
+    {$left_menu}
+</ul>
+
+<script src="{$base_url}/flash/admin/js/jquery_2.1.min.js" type="text/javascript"></script>
+<script src="{$base_url}/flash/admin/js/tendina.js"></script>
+<script>
+
+
+    $('.dropdown').tendina({
+        animate: true,
+        speed: 500,
+        openCallback: function($clickedEl) {
+            console.log($clickedEl);
+        },
+        closeCallback: function($clickedEl) {
+            console.log($clickedEl);
+        }
+    });
+
+   $(document).ready(function(){
+       $('.dropdown a').click(function(){
+           if(!$(this).parent().find("ul").attr("class")&&$(this).attr('class')!='cur'){
+               $('.dropdown a').attr("class","");
+               $(this).attr("class","cur");
+               var url=$(this).attr("au");
+               var level=$(this).attr("level");
+               var position= new Array();
+               var parent='.';
+               for(var i=1;i<=level;i++){
+                  // alert (eval("$(this)"+parent+"text()"));
+                   position[i]=eval("$(this)"+parent+"text()");
+                   parent+='parent("li").parent("ul").prev().';
+               }
+               var position_str='';
+               for(i=level;i>=1;i--){
+                   position_str+= position[i]+'>';
+               }
+
+               if(position_str){
+                   position_str = position_str.substring (0,position_str.length-1);
+               }
+
+               if(url&&url!='#'){
+                   getContent(url,position_str);
+
+               }
+
+
+
+           }
+       })
+   })
+</script>

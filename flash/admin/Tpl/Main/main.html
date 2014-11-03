@@ -1,0 +1,41 @@
+<include file="common/header"/>
+        <body>
+        <script>
+            $(document).ready(function(){
+                setInterval("moveBg($('.topbg'),1)",60);
+            })
+        </script>
+
+        <div class="topbox">
+            <div class="topbg" cnt='0'>
+                <li>
+                    <img width="20" src="{$base_url}/flash/admin/images/user.png"/>
+
+                    <span>{$langZh.welcome},{$admin_username}！<a class="exit" href="{$base_url}/admin.php">{$langZh.exit}</a></span>
+                </li>
+            </div>
+        </div>
+        <div class="body">
+            <div class="bg">
+
+            </div>
+            <div class="main">
+                <include file="common/leftmenu"/>
+                <div class="maincontent">
+                    <div id="maincontent">
+                    </div>
+
+                    <include file="common/loading"/>
+                    <include file="common/poping"/>
+                    <!--CONTENT-->
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--缓存-->
+        <input id = "img_url" value="" type="hidden"/>
+        </body>
+
+</html>
+
+

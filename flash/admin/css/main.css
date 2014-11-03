@@ -1,0 +1,59 @@
+.topbox{background: #13A7C7;width: 100%;height: 60px;}
+.topbox .topbg{width:100%;height:100%;background:url("../images/inbg.png") repeat scroll 1px -779px;}
+.topbox .topbg li{line-height:60px;width: 1000px;margin: 0 auto;color: #fff;font-size: 16px;}
+.topbox .topbg .exit{font-size: 12px;}
+.body{width: 1000px;margin: 0 auto;}
+.body .bg{width: 1000px;min-height: 100%;position: absolute;z-index: -1;background: #fff;top: 0}
+.main{background: #fff;padding: 10px;}
+.dropdown{width: 200px;font-size: 12px;float: left}
+.dropdown a{color: #555;}
+.dropdown a:hover{color: #ff6600}
+.dropdown li,.setleftmenu li{
+    padding: 2px 20px;
+}
+
+.dropdown .cur{color:#ff6600 }
+.maincontent{
+    width: 770px;margin-left: 10px;float: left;
+}
+.position{
+    font-size: 12px;color: #999;
+}
+input{height: 20px;border: none;border-bottom: 1px solid #999 ;}
+textarea{
+    padding: 5px;
+}
+input,textarea{
+    font-size: 12px;color: #13A7C7
+}
+input[type=submit]{
+    padding: 5px 10px;height: auto;cursor: pointer;
+}
+.content{margin-top: 20px;}
+.explode{width: 100%;height: 1px;background: #0055FF}
+.page{
+    margin-top: 10px;
+
+}
+.pagebar{
+
+    float: right;
+}
+.pagebar li{
+    float: left;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #fff;
+    background: #999;
+    cursor: pointer;
+}
+.pagebar li:hover{
+    background: #ff6600;
+}
+.pagebar .cur{
+    background: #ff6600;
+}
+.content li{
+    margin-top: 20px;
+}
+

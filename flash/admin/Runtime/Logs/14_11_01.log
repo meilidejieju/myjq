@@ -1,0 +1,408 @@
+[ 2014-11-01T15:19:19+08:00 ] 127.0.0.1 /yanandyan/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000328s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000436s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2014-11-01T15:19:19+08:00 ] 127.0.0.1 /yanandyan/admin.php/Index/yanzhengma
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009539s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009676s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+
+[ 2014-11-01T19:58:07+08:00 ] 127.0.0.1 /yanandyan/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000336s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000329s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000230s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2014-11-01T19:58:07+08:00 ] 127.0.0.1 /yanandyan/admin.php/Index/yanzhengma
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000508s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2014-11-01T19:58:13+08:00 ] 127.0.0.1 /yanandyan/admin.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041996s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000280s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000258s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001091s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2014-11-01T19:58:15+08:00 ] 127.0.0.1 /yanandyan/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005535s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000267s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001426s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2014-11-01T19:58:15+08:00 ] 127.0.0.1 /yanandyan/admin.php/Index/yanzhengma
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000558s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+
+[ 2014-11-01T19:58:23+08:00 ] 127.0.0.1 /yanandyan/admin.php/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `blog_users` [ RunTime:0.018340s ]
+SQL: SELECT `password`,`username`,`uid` FROM `blog_users` WHERE ( username ="admin" ) LIMIT 1   [ RunTime:0.028786s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004679s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000267s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000299s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001129s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2014-11-01T19:58:25+08:00 ] 127.0.0.1 /yanandyan/admin.php/Main/main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `blog_leftmenu` [ RunTime:0.010545s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=0 and display=1 ) ORDER BY list_order  [ RunTime:0.000439s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=130 and display=1 ) ORDER BY list_order  [ RunTime:0.000199s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=131 and display=1 ) ORDER BY list_order  [ RunTime:0.000173s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=137 and display=1 ) ORDER BY list_order  [ RunTime:0.000157s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=191 and display=1 ) ORDER BY list_order  [ RunTime:0.000167s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=192 and display=1 ) ORDER BY list_order  [ RunTime:0.000158s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=193 and display=1 ) ORDER BY list_order  [ RunTime:0.000157s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=194 and display=1 ) ORDER BY list_order  [ RunTime:0.000158s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=195 and display=1 ) ORDER BY list_order  [ RunTime:0.000161s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=198 and display=1 ) ORDER BY list_order  [ RunTime:0.000162s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=196 and display=1 ) ORDER BY list_order  [ RunTime:0.000154s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=201 and display=1 ) ORDER BY list_order  [ RunTime:0.000154s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=200 and display=1 ) ORDER BY list_order  [ RunTime:0.000155s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025737s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000258s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000240s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000169s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2014-11-01T19:58:28+08:00 ] 127.0.0.1 /yanandyan/admin.php/Main/mycontact
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `blog_mycontact` [ RunTime:0.002466s ]
+SQL: SELECT * FROM `blog_mycontact` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020968s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000298s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001468s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2014-11-01T21:16:16+08:00 ] 127.0.0.1 /yanandyan/admin.php/Main/main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `blog_leftmenu` [ RunTime:0.003198s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=0 and display=1 ) ORDER BY list_order  [ RunTime:0.000443s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=130 and display=1 ) ORDER BY list_order  [ RunTime:0.000282s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=131 and display=1 ) ORDER BY list_order  [ RunTime:0.000206s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=137 and display=1 ) ORDER BY list_order  [ RunTime:0.000191s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=191 and display=1 ) ORDER BY list_order  [ RunTime:0.000189s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=192 and display=1 ) ORDER BY list_order  [ RunTime:0.000183s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=193 and display=1 ) ORDER BY list_order  [ RunTime:0.000185s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=194 and display=1 ) ORDER BY list_order  [ RunTime:0.000175s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=195 and display=1 ) ORDER BY list_order  [ RunTime:0.000180s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=198 and display=1 ) ORDER BY list_order  [ RunTime:0.000183s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=196 and display=1 ) ORDER BY list_order  [ RunTime:0.000179s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=201 and display=1 ) ORDER BY list_order  [ RunTime:0.000179s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=200 and display=1 ) ORDER BY list_order  [ RunTime:0.000183s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006242s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000341s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001659s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2014-11-01T21:23:29+08:00 ] 127.0.0.1 /yanandyan/admin.php/Main/mywork
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `blog_myworks` [ RunTime:0.003134s ]
+NOTIC: [8] Undefined index: p D:\myweb\yanandyan\flash\admin\Lib\Action\MainAction.class.php 第 143 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_myworks` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `blog_myworks` WHERE ( uid=1 ) ORDER BY post_time desc LIMIT 0,5   [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014852s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000246s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000262s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000167s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2014-11-01T21:23:31+08:00 ] 127.0.0.1 /yanandyan/admin.php/Mainajax/editWorks/p/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `blog_myworks` [ RunTime:0.002630s ]
+SQL: SELECT * FROM `blog_myworks` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `blog_picture_center` [ RunTime:0.002690s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_picture_center` WHERE ( belong_uid='1' ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `blog_picture_center` WHERE ( belong_uid='1' ) LIMIT 0,3   [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: minpic_display D:\myweb\yanandyan\flash\admin\Runtime\Cache\b706e5c2e869260c50cacd5f6685b2a4.php 第 22 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025669s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000339s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000246s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000183s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2014-11-01T21:23:37+08:00 ] 127.0.0.1 /yanandyan/admin.php/Mainajax/editmyworkdata/p/1/id/52
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `blog_myworks` [ RunTime:0.002872s ]
+SQL: UPDATE `blog_myworks` SET `subject`='44234324234',`post_time`=1411704223,`description`='23423',`picurl`='http://localhost/yanandyan/flash/admin/plugin/examples/uploads/admin/119048311843a7efb6o.jpg',`author`='admin',`uid`=1 WHERE ( id=52 ) [ RunTime:0.057104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_myworks` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `blog_myworks` WHERE ( uid=1 ) ORDER BY post_time desc LIMIT 0,5   [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000414s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000393s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001555s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000421s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2014-11-01T21:23:40+08:00 ] 127.0.0.1 /yanandyan/admin.php/Mainajax/mywork/p/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `blog_myworks` [ RunTime:0.002252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_myworks` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `blog_myworks` WHERE ( uid=1 ) ORDER BY post_time desc LIMIT 10,5   [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008741s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000352s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001470s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-11-01T21:34:27+08:00 ] 127.0.0.1 /yanandyan/admin.php/Main/main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `blog_leftmenu` [ RunTime:0.003782s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=0 and display=1 ) ORDER BY list_order  [ RunTime:0.000538s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=130 and display=1 ) ORDER BY list_order  [ RunTime:0.000316s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=131 and display=1 ) ORDER BY list_order  [ RunTime:0.000176s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=137 and display=1 ) ORDER BY list_order  [ RunTime:0.000158s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=191 and display=1 ) ORDER BY list_order  [ RunTime:0.000166s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=192 and display=1 ) ORDER BY list_order  [ RunTime:0.000192s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=193 and display=1 ) ORDER BY list_order  [ RunTime:0.000161s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=194 and display=1 ) ORDER BY list_order  [ RunTime:0.000162s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=195 and display=1 ) ORDER BY list_order  [ RunTime:0.000171s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=198 and display=1 ) ORDER BY list_order  [ RunTime:0.000161s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=196 and display=1 ) ORDER BY list_order  [ RunTime:0.000157s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=201 and display=1 ) ORDER BY list_order  [ RunTime:0.000157s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=200 and display=1 ) ORDER BY list_order  [ RunTime:0.000277s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005909s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000294s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000216s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001249s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000542s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-11-01T21:47:26+08:00 ] 127.0.0.1 /yanandyan/admin.php/Main/main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000705s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `blog_leftmenu` [ RunTime:0.002766s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=0 and display=1 ) ORDER BY list_order  [ RunTime:0.000311s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=130 and display=1 ) ORDER BY list_order  [ RunTime:0.000240s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=131 and display=1 ) ORDER BY list_order  [ RunTime:0.000190s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=137 and display=1 ) ORDER BY list_order  [ RunTime:0.000181s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=191 and display=1 ) ORDER BY list_order  [ RunTime:0.000193s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=192 and display=1 ) ORDER BY list_order  [ RunTime:0.000197s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=193 and display=1 ) ORDER BY list_order  [ RunTime:0.000192s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=194 and display=1 ) ORDER BY list_order  [ RunTime:0.000221s ]
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=195 and display=1 ) ORDER BY list_order  [ RunTime:0.000192s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=198 and display=1 ) ORDER BY list_order  [ RunTime:0.000177s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=196 and display=1 ) ORDER BY list_order  [ RunTime:0.000183s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=201 and display=1 ) ORDER BY list_order  [ RunTime:0.000180s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+SQL: SELECT * FROM `blog_leftmenu` WHERE ( parent_id=200 and display=1 ) ORDER BY list_order  [ RunTime:0.000179s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\myweb\yanandyan\flash\admin\Lib\Model\MenuModel.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007767s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000337s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000294s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000223s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001308s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000460s ]
+

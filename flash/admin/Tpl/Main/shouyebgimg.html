@@ -1,0 +1,38 @@
+<link type="text/css" href="{$base_url}/flash/admin/css/webset.css" rel="stylesheet"/>
+<div>
+    <include file="common/position"/>
+    <div class="content">
+
+
+        <link type="text/css" href="{$base_url}/flash/admin/css/images.css" rel="stylesheet"/>
+        <div class="images" style="margin-top: 20px;">
+            <foreach name="imagelist" item="vo">
+                <div class="lie">
+                    <foreach name="vo" item="v">
+                        <div class="img_item">
+                            <img src="{$v.value}">
+                        </div>
+                    </foreach>
+                </div>
+            </foreach>
+            <div class="clear"></div>
+            <div class="page" >
+                <ul class="pagebar" >
+                    <foreach name="pagebar" item="vo">
+                        <li class="{$vo.cur}" onclick="getContent('{$vo.url}','当前位置:网站首页设置>背景图片设置')">{$vo.name}</li>
+                    </foreach>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+    </div>
+    <li>
+        首页背景图片地址:<input style="width: 500px;" type="text" name="base_url"/>
+    </li>
+
+
+
+</div>
