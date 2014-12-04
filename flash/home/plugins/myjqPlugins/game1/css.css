@@ -1,0 +1,30 @@
+*{
+    padding: 0;margin: 0;list-style: none;
+}
+body{
+    height:1080px;overflow: hidden;
+}
+.car{
+    width: 20px;height: 40px;background: #000;position: absolute;top: 100px;left: 200px;
+}
+.car2{
+    width: 20px;height: 40px;background: #000;position: absolute;top: 60px;left: 178px;
+}
+.dian{
+    width: 3px;height:10px;background: #999;
+}
+/*
+.bg,.bgclone{
+    background-image: url('./images/road-bg.jpg');width:900px;height: 1540px;
+}
+*/
+.bg,.bgclone{
+    width:450px;height: 770px;
+}
+.diycar{
+    position: absolute;z-index: 99;left: 150px;width: 56px;top:500px;height: 90px;
+}
+
+#speed{background: #fff;padding: 10px;position: absolute;left: 100px;top:20px;z-index: 999}
+#damage_level{background: #fff;padding: 10px;position: absolute;left: 300px;top:20px;z-index: 999}
+#speed_level{background: #fff;padding: 10px;position: absolute;left: 500px;top:20px;z-index: 999}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>game1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="../jquery-1.7.2.js"></script>
+    <link href="./css.css" type="text/css"  rel="stylesheet"/>
+    <script type="text/javascript" src="./js/trail.jq.js"></script>
+    <script type="text/javascript" src="./js/updownbg.js"></script>
+</head>
+
+<body>
+<div class="bg">
+    <img width="100%" src="./images/road-bg.jpg">
+</div>
+<div id='speed'>speed:5</div>
+<div id='damage_level'>damage_level:0</div>
+<div id='speed_level'>speed_level:5</div>
+<div class="diycar"><img width="100%" src="./images/car.png"></div>
+
+
+</body>
+</html>
+<script>
+
+    $(document).ready(function(){
+//        var attr = "top="+0 +",left="+0+",width="+"450px"+",height="+"770px"+", location = no, menubar = no,scrollbars = no,toolbar = no,status = no,resizable = no";
+//        window.open("./index2.html","texthtml",attr);
+       document.body.scroll="no";
+        $("body").trail();
+    })
+
+</script>

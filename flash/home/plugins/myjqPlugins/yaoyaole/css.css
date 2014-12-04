@@ -1,0 +1,28 @@
+*{
+    padding: 0;margin: 0;list-style: none;
+}
+
+.prize .item,.itemtop{
+    float: left;
+    padding: 0px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    background: #ff6600;
+    color: #fff;
+    height:50px;
+    overflow: hidden;
+}
+.prize{
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+}
+.item,.itemtop{
+    position: absolute;
+    top:0;
+}
+.itemtop{
+    top:-50px;
+}

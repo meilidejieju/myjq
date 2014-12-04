@@ -6,7 +6,7 @@
  * Time: 下午3:31
  */
 //网站根目录
-define('BASE_URL', 'http://localhost/yanandyan');
+define('BASE_URL', 'http://localhost/myjq');
 //是否开启开发者模式
 define('DEVELOPER',1);
 //网站根路径
